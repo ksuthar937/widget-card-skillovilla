@@ -1,0 +1,23 @@
+.outer {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  padding: 2rem 1rem;
+}
+
+.text h1 {
+  font-size: 1.5rem;
+}
+
+.text p {
+  font-size: 1rem;
+}
+
+.outer input {
+  width: 100%;
+  border: none;
+  border-radius: 1rem;
+  background: var(--color-blue1);
+  padding: 0.3rem 1rem;
+  margin-top: 1rem;
+  color: var(--color-white);
+}

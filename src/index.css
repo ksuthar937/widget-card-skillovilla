@@ -1,0 +1,70 @@
+:root {
+  /* Global variables to be defined here */
+  --color-white: #ffffff;
+  --color-grey: #e3e3e3;
+  --color-blue: rgb(31, 104, 207);
+  --color-blue1: rgb(18, 84, 177);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+
+.widget {
+  margin: 1rem;
+  border: 5px solid var(--color-grey);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 786px) {
+  .widget {
+    width: 40rem;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0%);
+  }
+}
